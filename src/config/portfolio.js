@@ -13,7 +13,7 @@ export const siteConfig = {
     "Kishore - Backend Developer specializing in Node.js, Go, distributed systems, and AI-powered developer tools.",
   tagline:
     "Backend Developer • Node.js & Go • AI Agents • Distributed Systems",
-  resumeLink: "/kishore_resume.pdf",
+  resumeLink: "kishore_resume.pdf",
 };
 
 export const contactInfo = {
