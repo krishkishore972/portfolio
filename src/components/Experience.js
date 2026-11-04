@@ -24,6 +24,9 @@ export default function Experience() {
               <div className="expHeader">
                 <div>
                   <div className="expCompany">{exp.company}</div>
+                  {exp.product && (
+                    <div className="expProduct">{exp.product}</div>
+                  )}
                   <div className="expRole">{exp.role}</div>
                 </div>
                 {exp.duration && (
